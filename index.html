@@ -1,0 +1,17 @@
+<!DOCTYPE html> <html> <head> 	<title>My Biography</title> 	<style> 		
+body {
+  background-image: url(https://images.app.goo.gl/feCm4fAhWvKVQgJT8);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+} 
+ 	
+	.header { 		
+	margin: 30px 0; 	
+	} 		
+ 		.header h1 { 		
+	font-size: 36px; 		
+	margin: 0; 		} 		
+ 		.header p { 			font-size: 18px; 			margin: 0; 			color: #333; 		} 		 		.section { 			margin: 30px 0; 		} 		 		.section h2 { 			font-size: 24px; 			margin: 0; 		} 		 		.section p { 			font-size: 18px; 			margin: 0; 			color: #333; 		} 		 		.profile-pic { 			border-radius: 50%; 			width: 200px; 			height: 200px; 			margin: 30px 0; 		} 		 		.quote { 			font-size: 24px; 			color: #333; 			margin: 30px 0; 		} 		 		.btn { 			background-color: #333; 			color: #fff; 			padding: 10px 20px; 			border-radius: 5px; 			text-decoration: none; 			font-size: 18px; 			margin: 10px; 			display: inline-block; 		} 		 		.btn:hover { 			background-color: #fff; 			color: #333; 			cursor: pointer; 		} 	</style> </head> <body> 	<div class="header"> 		<h1>My Biography</h1> 		<p>Learn more about me</p> 	</div> 	 	<div class="section"> 		<h2>My Information</h2> 		<p id="info">Click on the buttons below to reveal my information</p> 		<div> 			<a class="btn" id="btn-number">My Number</a> 			<a class="btn" id="btn-email">My Gmail</a> 			<a class="btn" id="btn-instagram" target="_blank">https:Instagram</a> 		</div> 	</div> 	 	<img class="profile-pic" src="mypic.png" alt="Profile Picture"> 	 	<p class=" <p class="quote">"Success is not final, failure is not fatal: it is the courage to continue that counts."</p> 	 	<div class="section"> 		<h2>My Details</h2> 		<p>Date of Birth: <b>23 09 2004</b></p> 		<p>Address: <b>At.post. Kabansangvi Sub-Dist:Chakur Dist:Latur 413524</b></p> 		<p>College: <b>Government Polytechnic Nanded</b></p> 	</div> 	 	<a class="btn" href="https://instagram.com/aayansh_rajguru?igshid=YmMyMTA2M2Y=" target="_blank">Follow me on Instagram</a> 	 	<script> 		document.getElementById("btn-number").addEventListener("click", function() { 			document.getElementById("info").innerHTML = "My number is 9322895156"; 		}); 		 		document.getElementById("btn-email").addEventListener("click", function() { 			document.getElementById("info").innerHTML = "My email is rajguruamit406@gmail"; 		}); 		 		document.getElementById("btn-instagram").addEventListener("click", function() { 			window.location.href = "https://instagram.com/aayansh_rajguru?igshid=YmMyMTA2M2Y="; 		}); 	</script> </body> </html>
